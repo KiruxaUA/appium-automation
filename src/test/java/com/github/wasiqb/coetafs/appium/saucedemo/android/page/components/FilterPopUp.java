@@ -17,14 +17,14 @@
  */
 package com.github.wasiqb.coetafs.appium.saucedemo.android.page.components;
 
-import static com.github.wasiqb.coteafs.appium.config.enums.WaitStrategy.VISIBLE;
-import static com.github.wasiqb.coteafs.appium.device.DeviceElement.create;
+import static com.gridu.qa.appium.config.enums.WaitStrategy.VISIBLE;
+import static com.gridu.qa.appium.device.DeviceElement.create;
 import static io.appium.java_client.MobileBy.AndroidUIAutomator;
 import static org.openqa.selenium.By.id;
 
-import com.github.wasiqb.coteafs.appium.android.AndroidActivity;
-import com.github.wasiqb.coteafs.appium.android.AndroidDevice;
-import com.github.wasiqb.coteafs.appium.device.DeviceElement;
+import com.gridu.qa.appium.android.AndroidActivity;
+import com.gridu.qa.appium.android.AndroidDevice;
+import com.gridu.qa.appium.device.DeviceElement;
 
 public class FilterPopUp extends AndroidActivity {
     public static final String OPTION = "Filter Option: {0}";

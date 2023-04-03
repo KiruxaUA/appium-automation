@@ -22,8 +22,8 @@ import static com.github.wasiqb.coetafs.appium.saucedemo.android.page.LoginPage.
 import static com.github.wasiqb.coetafs.appium.saucedemo.android.page.LoginPage.USER_NAME;
 
 import com.github.wasiqb.coetafs.appium.saucedemo.android.page.LoginPage;
-import com.github.wasiqb.coteafs.appium.android.AndroidActivityActions;
-import com.github.wasiqb.coteafs.appium.android.AndroidDevice;
+import com.gridu.qa.appium.android.AndroidActivityActions;
+import com.gridu.qa.appium.android.AndroidDevice;
 
 public class SuccessLoginAction extends AndroidActivityActions {
     public SuccessLoginAction (final AndroidDevice device) {

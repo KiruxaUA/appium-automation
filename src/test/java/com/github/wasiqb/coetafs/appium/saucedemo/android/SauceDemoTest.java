@@ -21,8 +21,8 @@ import static com.github.wasiqb.coetafs.appium.saucedemo.android.page.LoginPage.
 import static com.github.wasiqb.coetafs.appium.saucedemo.android.page.LoginPage.USER_NAME;
 
 import com.github.wasiqb.coetafs.appium.saucedemo.android.actions.SuccessLoginAction;
-import com.github.wasiqb.coteafs.appium.android.AndroidDevice;
-import com.github.wasiqb.coteafs.appium.service.AppiumServer;
+import com.gridu.qa.appium.android.AndroidDevice;
+import com.gridu.qa.appium.service.AppiumServer;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;

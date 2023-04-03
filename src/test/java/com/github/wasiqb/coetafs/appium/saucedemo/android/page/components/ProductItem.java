@@ -17,13 +17,13 @@
  */
 package com.github.wasiqb.coetafs.appium.saucedemo.android.page.components;
 
-import static com.github.wasiqb.coteafs.appium.config.enums.WaitStrategy.VISIBLE;
-import static com.github.wasiqb.coteafs.appium.device.DeviceElement.create;
+import static com.gridu.qa.appium.config.enums.WaitStrategy.VISIBLE;
+import static com.gridu.qa.appium.device.DeviceElement.create;
 import static io.appium.java_client.MobileBy.AccessibilityId;
 
-import com.github.wasiqb.coteafs.appium.android.AndroidActivity;
-import com.github.wasiqb.coteafs.appium.android.AndroidDevice;
-import com.github.wasiqb.coteafs.appium.device.DeviceElement;
+import com.gridu.qa.appium.android.AndroidActivity;
+import com.gridu.qa.appium.android.AndroidDevice;
+import com.gridu.qa.appium.device.DeviceElement;
 
 public class ProductItem extends AndroidActivity {
     public static final String ADD_CART    = "Add to Cart";
